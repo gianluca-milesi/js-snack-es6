@@ -19,4 +19,12 @@ bikesArray = [
     }
 ];
 
-console.log(bikesArray[0].weight);
+
+lightestWeight = bikesArray[0].weight;
+
+for (let i = 0; i<bikesArray.length; i++){
+    console.log(bikesArray[i]);
+    if(bikesArray[i].weight<lightestWeight){
+        console.log(bikesArray[i].weight);
+    }
+}
