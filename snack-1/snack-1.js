@@ -25,6 +25,6 @@ lightestWeight = bikesArray[0].weight;
 for (let i = 0; i<bikesArray.length; i++){
     console.log(bikesArray[i]);
     if(bikesArray[i].weight<lightestWeight){
-        console.log(bikesArray[i].weight);
+        console.log(`La bicicletta più leggera pesa: ${bikesArray[i].weight}Kg`);
     }
 }
